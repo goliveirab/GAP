@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/ha_account_list"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ha_total_balance_text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginLeft="10dp"
+        android:layout_alignTop="@+id/ha_total_balance"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/ha_account_list"
+        android:text="@string/ha_total_balance_text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/ha_total_balance"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="left"
+        android:layout_toRightOf="@+id/ha_total_balance_text" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ha_account_list"
+        android:layout_marginTop="20dp"
+        android:layout_alignRight="@+id/ha_total_balance"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/ha_total_balance"
+        tools:listitem="@layout/items_list_account"
+        android:layout_alignLeft="@+id/ha_total_balance_text" />
+    />
+
+</RelativeLayout>

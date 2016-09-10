@@ -1,0 +1,77 @@
+<resources>
+    <!-- <string name=""></string> -->
+
+    <string name="app_name">GAP</string>
+
+    <!-- General items -->
+    <string name="save_button">Guardar</string>
+
+    <!-- login-activity -->
+    <string name="login_message">Bienvenid@ !</string>
+    <string name="login_name">Usuari@</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login_button">Entrar</string>
+    <string name="login_register">Nuevo registro</string>
+
+    <!-- register activity -->
+    <string name="register_button">Registrarse</string>
+    <string name="register_name">Nombre</string>
+    <string name="register_message">Registrate para poder usar la aplicación:</string>
+
+    <!-- resultados de querys en base de datos -->
+    <string name="db_not_exist">No existe la Base de datos</string>
+    <string name="db_user_register"> se ha registrado correctamente!</string>
+    <string name="db_user_register_already"> ya esta registrado.</string>
+    <string name="db_user_pass_not_valid">Usuario o Contraseña invalido</string>
+    <string name="db_user_not_register"> no esta registrado.</string>
+    <string name="db_account_register"> se ha registrado correctamente!.</string>
+    <string name="db_debit_register">La transacción se ha realizado con éxito!.</string>
+    <string name="db_account_updated">La cuenta ha sido actualizada!.</string>
+    <string name="db_account_deleted">La cuenta ha sido eliminada!.</string>
+    <string name="db_account_already_register">Ese nombre de cuenta ya esta registrado.</string>
+
+    <!-- home-activity -->
+    <string name="ha_total_balance_text">Saldo Total:</string>
+
+    <!-- home-activity-empty -->
+    <string name="instruction_text_ae">Agrega tus cuentas para registrar los gastos:</string>
+    <string name="button_new_account">+ Agregar cuenta</string>
+
+    <!-- account-activity -->
+    <string name="instruction_text_aa">Agregar Cuenta:</string>
+    <string name="account_name">Nombre de la cuenta</string>
+    <string name="account_balance">Saldo</string>
+
+    <!-- expense-activity -->
+    <string name="instruction_text_ea">Debitar de la cuenta:</string>
+    <string name="expense_name">Descripcion del gasto</string>
+    <string name="expense_balance">Gasto</string>
+    <string name="expense_not_posible">No tienes dinero suficiente para gastar!!</string>
+
+    <!--  credit-activity -->
+    <string name="instruction_text_ca">Agregar deposito:</string>
+    <string name="credit_name">Descripcion del deposito</string>
+    <string name="credit_balance">Deposito</string>
+
+    <!-- menu_account_context -->
+    <string name="menu_account_context_debit">Debito</string>
+    <string name="menu_account_context_credit">Credito</string>
+    <string name="menu_account_context_history">Historial de Cuenta</string>
+    <string name="menu_account_context_delete">Eliminar Cuenta</string>
+
+    <!-- menu_new_user -->
+    <string name="menu_new_user">Nuevo Usuario</string>
+
+    <!-- menu_new_account -->
+    <string name="menu_new_account">Nueva Cuenta</string>
+
+    <!-- menu_account_account -->
+    <string name="menu_delete_account">Borrar Cuenta</string>
+    <string name="menu_history_accountt">Historial de Cuenta</string>
+
+    <!-- account-history -->
+    <string name="account">Historial de </string>
+
+
+</resources>
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/hae_instruction_text"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/instruction_text_ae" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_new_account"
+        android:id="@+id/hae_button_new_account"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/hae_instruction_text"
+        android:layout_alignLeft="@+id/hae_instruction_text"
+        android:layout_alignStart="@+id/hae_instruction_text"
+        android:layout_alignRight="@+id/hae_instruction_text"
+        android:layout_alignEnd="@+id/hae_instruction_text" />
+
+</RelativeLayout>

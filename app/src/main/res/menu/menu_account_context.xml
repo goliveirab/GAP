@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Menu contextual de Account -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/debit"
+        android:title="@string/menu_account_context_debit"
+        />
+
+    <item android:id="@+id/credit"
+        android:title="@string/menu_account_context_credit" />
+
+    <item android:id="@+id/history"
+        android:title="@string/menu_account_context_history" />
+
+</menu>
