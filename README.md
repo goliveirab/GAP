@@ -1,6 +1,6 @@
 # GAP
 Gestion de Ahorro Personal:
-Aplicación simple para el control de gastos personales.
+Aplicación Android para el control de gastos personales.
 
 - Agregar usuario
 - Agregar cuenta
